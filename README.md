@@ -18,50 +18,36 @@ Description:
 For developing the Java project FileOperationsDemo, I used the following tools and technologies:
 
 1] IntelliJ IDEA
-
-The main Integrated Development Environment (IDE) used to write, debug, and run the Java program.
-
-It provided features like syntax highlighting, intelligent code completion, and error detection, which made development smoother.
-
-The inbuilt terminal and project structure management helped in organizing source files properly.
+The primary Integrated Development Environment (IDE) used to write, debug, and run the weather application.
+It provided features like syntax highlighting, smart code completion, and integrated terminal, which simplified the process of testing HTTP requests and handling JSON responses.
 
 2] Java Development Kit (JDK)
-
-The JDK was essential for compiling and running the Java program.
-
-It provided the core Java libraries (like java.io and java.nio.file) that were used to perform file handling operations such as creating, reading, writing, and modifying text files.
+The JDK was essential for compiling and running the program.
+It included the java.net.http.HttpClient package, which was used to make HTTP GET requests to the OpenWeatherMap API, and the core Java libraries needed for networking and exception handling.
 
 3] Java Runtime Environment (JRE)
+The JRE executed the compiled bytecode of the program and ensured smooth client-server communication with the REST API.
+It allowed the WeatherApp to fetch and display real-time weather data dynamically.
 
-The JRE executed the compiled bytecode of the program.
+4] Git and GitHub
+Git was used for version control, making it easy to track incremental changes in the code and maintain a clean history.
+GitHub hosted the repository, enabling backup, collaboration, and showcasing of the project as part of my portfolio.
 
-It ensured that the FileOperationsDemo application ran smoothly on the system.
+5] Command Line / Terminal
+Though IntelliJ was the main environment, I also used the command line to run the program with javac and java.
+This helped test the application outside the IDE and better understand how Java programs interact with external APIs directly.
 
-Git and GitHub
+6] YouTube Videos
+YouTube tutorials provided practical guidance on working with REST APIs in Java.
+They demonstrated how to use HttpClient, handle responses, and parse JSON data, making it easier to implement real-time weather fetching features.
 
-Git was used for version control, allowing me to track changes in the project and maintain clean code history.
+7] ChatGPT
+ChatGPT was an on-demand coding assistant, offering explanations, code snippets, and troubleshooting help when I faced issues.
+It guided me through API integration, JSON parsing with org.json, and best practices for writing clean, maintainable code.
 
-GitHub was used to host the project repository, making it accessible for collaboration, backup, and showcasing on my profile.
-
-4] Command Line / Terminal
-
-Although IntelliJ handled most of the work, I also used the command line for compiling and running Java files directly with javac and java commands.
-
-This improved my understanding of how the Java compiler and runtime environment work.
-
-Alongside technical tools, I also relied on learning resources that provided explanations, tutorials, and problem-solving guidance during the project:
-
-5] . YouTube Videos
-
-YouTube was an important platform for learning practical aspects of file handling in Java. Watching video tutorials made complex concepts easier to understand, as they combined theoretical explanations with live coding examples. It also helped me debug issues by following step-by-step demonstrations.
-
-6] . ChatGPT
-
-ChatGPT acted as an on-demand assistant throughout the project. Whenever I faced doubts, needed code explanations, or wanted alternative approaches, ChatGPT provided quick and clear solutions. It also helped in generating documentation and improving the project description.
-
-7] . GeeksforGeeks
-
-GeeksforGeeks was one of the most valuable reference sites I used. It offered in-depth articles and coding examples for file handling in Java, including the use of classes like FileReader, FileWriter, BufferedReader, and BufferedWriter. Its problem-solving tutorials gave me confidence in applying theoretical concepts to real coding tasks.
+8] GeeksforGeeks
+GeeksforGeeks was an important reference for understanding Java’s HTTP libraries and JSON parsing techniques.
+It provided clear examples of making REST API calls, handling exceptions, and parsing responses into meaningful output for the user.
 # Output
 
 <img width="959" height="503" alt="Image" src="https://github.com/user-attachments/assets/e0912be5-fa9c-42bb-a6cf-c011c9149b31" />
